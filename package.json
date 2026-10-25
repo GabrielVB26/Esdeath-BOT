@@ -1,0 +1,17 @@
+{
+  "name": "esdeath-bot",
+  "version": "1.0.0",
+  "description": "Esdeath-BOT — administración de grupos y creación, conversión y personalización de stickers.",
+  "main": "index.js",
+  "scripts": {"start": "bash start.sh", "start:direct": "node index.js"},
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "baileys": "6.7.21",
+    "chalk": "^4.1.2",
+    "cfonts": "^3.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-cache": "^5.1.2",
+    "node-webpmux": "^3.1.7",
+    "pino": "^8.14.1"
+  }
+}
