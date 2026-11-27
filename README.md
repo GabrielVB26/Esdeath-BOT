@@ -31,4 +31,30 @@ Cuando se solicite, introduce tu número de WhatsApp con el código del país y 
 
 **Importante:** La instalación elimina la carpeta anterior de Esdeath-BOT. Tendrás que vincular WhatsApp nuevamente.
 
-## 🔋 Mantener
+## 🔋 Mantener el bot activo
+
+Para evitar que Android cierre Termux:
+
+1. Entra en Ajustes → Aplicaciones → Termux → Batería.
+2. Selecciona **Sin restricciones**.
+3. En Samsung, añade Termux a **Aplicaciones nunca inactivas**.
+
+No fuerces el cierre de Termux mientras el bot esté funcionando.
+
+## 🔄 Reiniciar Esdeath-BOT
+
+Si el bot se apaga, se detiene inesperadamente, Termux se cierra o reinicias el teléfono, abre Termux y ejecuta:
+
+    termux-wake-lock && cd ~/Esdeath-BOT && node index.js
+
+Si la sesión de WhatsApp sigue guardada, se conectará automáticamente.
+
+## ⏹️ Detener Esdeath-BOT
+
+Presiona **CTRL + C** dentro de Termux.
+
+## 📜 Licencia
+
+Se conserva el archivo de licencia correspondiente a este proyecto.
+
+## 🇻🇪 HECHO EN VENEZUELA
