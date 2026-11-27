@@ -14,7 +14,7 @@
 Copia y pega **este único comando completo** en Termux:
 
 ```bash
-termux-wake-lock && pkg update -y && pkg upgrade -y && pkg install -y git nodejs-lts ffmpeg && termux-setup-storage -y && rm -rf ~/Esdeath-BOT && git clone https://github.com/GabrielVB26/Esdeath-BOT.git ~/Esdeath-BOT && cd ~/Esdeath-BOT && npm install --yes --no-audit --no-fund && node index.js
+cd ~ && termux-wake-lock && pkg update -y && pkg upgrade -y && pkg install -y git nodejs-lts ffmpeg && rm -rf ~/Esdeath-BOT && git clone [https://github.com/GabrielVB26/Esdeath-BOT.git](https://github.com/GabrielVB26/Esdeath-BOT.git) ~/Esdeath-BOT && cd ~/Esdeath-BOT && npm install --yes --no-audit --no-fund && node index.js
 ```
 
 Cuando Esdeath-BOT lo solicite, introduce tu número de WhatsApp con el código de país y sigue las indicaciones de vinculación.
@@ -33,10 +33,9 @@ Si el bot se cierra, se apaga o reinicias el teléfono, **no hace falta volver a
 termux-wake-lock && cd ~/Esdeath-BOT && node index.js
 ```
 
-Cuando Esdeath-BOT lo solicite, introduce tu número de WhatsApp con el código de país y sigue las indicaciones de vinculación.
+Como la sesión ya quedó guardada, el bot se conectará automáticamente sin pedir tu número otra vez.
 
 ## 📜 Licencia
 Se conserva el archivo de licencia correspondiente a este proyecto.
 
 ## HECHO EN VENEZUELA 🇻🇪
-
