@@ -14,7 +14,7 @@
 Copia y pega **este único comando completo** en Termux:
 
 ```bash
-termux-wake-lock && pkg update -y && pkg upgrade -y && pkg install -y git nodejs-lts ffmpeg && termux-setup-storage && rm -rf ~/Esdeath-BOT && git clone https://github.com/GabrielVB26/Esdeath-BOT.git ~/Esdeath-BOT && cd ~/Esdeath-BOT && npm install --yes --no-audit --no-fund && node index.js
+termux-wake-lock && pkg update -y && pkg upgrade -y && pkg install -y git nodejs-lts ffmpeg && termux-setup-storage -y && rm -rf ~/Esdeath-BOT && git clone https://github.com/GabrielVB26/Esdeath-BOT.git ~/Esdeath-BOT && cd ~/Esdeath-BOT && npm install --yes --no-audit --no-fund && node index.js
 ```
 
 Cuando Esdeath-BOT lo solicite, introduce tu número de WhatsApp con el código de país y sigue las indicaciones de vinculación.
